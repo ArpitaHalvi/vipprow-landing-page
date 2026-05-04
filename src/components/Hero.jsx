@@ -127,7 +127,7 @@ export default function Hero() {
     >
       {/* Radial violet glow */}
       <div
-        className="absolute top-1/2 left-1/2 w-[700px] h-[700px] pointer-events-none"
+        className="absolute top-1/2 left-1/2 w-175 h-175 pointer-events-none"
         style={{
           transform: "translate(-50%,-62%)",
           background:
@@ -176,7 +176,7 @@ export default function Hero() {
         {/* Headline */}
         <motion.h1
           variants={item}
-          className="font-sora text-5xl sm:text-6xl md:text-6xl font-extrabold leading-[1.06] tracking-[-0.03em] mb-6"
+          className="font-sora text-4xl sm:text-6xl md:text-6xl font-extrabold leading-[1.06] tracking-[-0.03em] mb-6"
         >
           We Build Systems That Generate
           {/* <br /> */}{" "}
@@ -188,7 +188,7 @@ export default function Hero() {
         {/* Sub-heading */}
         <motion.p
           variants={item}
-          className="max-w-[520px] text-white/65 text-lg md:text-lg leading-relaxed font-light mb-10"
+          className="max-w-130 text-white/65 text-lg md:text-lg leading-relaxed font-light mb-10"
         >
           Vipprow helps businesses grow faster using AI-powered marketing,
           automation & performance-driven strategies

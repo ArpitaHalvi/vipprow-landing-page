@@ -47,7 +47,12 @@ export default function Navbar() {
           }}
           className="font-sora text-xl font-extrabold tracking-widest gradient-text select-none"
         >
-          VIPPROW
+          {/* VIPPROW */}
+          <img
+            src="/images/vipprow-logo-removebg-preview.png"
+            alt="Vipprow Logo"
+            className="w-40 object-contain"
+          />
         </a>
 
         {/* Desktop links */}
@@ -105,8 +110,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -16 }}
             transition={{ duration: 0.25 }}
-            className="fixed top-16.25 left-4 right-4 z-99 rounded-2xl p-5
-                       glass-card border order-white/8 flex flex-col gap-3"
+            className="fixed top-16.25 left-4 right-4 z-99 rounded-2xl p-5 glass-card border order-white/8 flex flex-col gap-3"
           >
             {NAV_LINKS.map(({ label, href }) => (
               <Link

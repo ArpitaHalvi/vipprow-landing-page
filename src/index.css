@@ -58,8 +58,10 @@ body::before {
 .glass-card {
   background: var(--glass);
   border: 1px solid var(--glass-border);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  /* backdrop-filter: blur(12px); */
+  /* -webkit-backdrop-filter: blur(12px); */
+  backdrop-filter: blur(120px);
+  -webkit-backdrop-filter: blur(120px);
 }
 
 .gradient-text {

@@ -41,8 +41,8 @@ const LogoConveyor = ({ data }) => {
       {/* Conveyor Belts */}
       <div className="w-full flex flex-col gap-10 overflow-hidden relative">
         {/* Edge Fades - Makes it look infinite */}
-        <div className="absolute inset-y-0 left-0 w-40 bg-linear-to-r from-[#030014] via-[#030014]/80 to-transparent z-20" />
-        <div className="absolute inset-y-0 right-0 w-40 bg-linear-to-l from-[#030014] via-[#030014]/80 to-transparent z-20" />
+        <div className="absolute inset-y-0 left-0 w-10 sm:w-40 bg-linear-to-r from-[#030014] via-[#030014]/80 to-transparent z-20" />
+        <div className="absolute inset-y-0 right-0 w-10 sm:w-40 bg-linear-to-l from-[#030014] via-[#030014]/80 to-transparent z-20" />
 
         {rows.map((rowItems, idx) => (
           <div key={idx} className="flex">

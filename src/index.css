@@ -116,3 +116,51 @@ body::before {
 .brand-color {
   color: var(--color-brand);
 }
+
+/* @keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.pause-on-hover:hover .animate-marquee {
+  animation-play-state: paused;
+} */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Slower duration (80s). Increase this number to slow it down even more */
+.animate-marquee-slow {
+  animation: marquee 100s linear infinite;
+}
+
+.animate-marquee-slow-reverse {
+  animation: marquee 100s linear infinite reverse;
+}
+
+.conveyor-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+/* Optional: Pause on hover so users can actually look at a logo */
+.conveyor-track:hover {
+  animation-play-state: paused;
+}

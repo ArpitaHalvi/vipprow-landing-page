@@ -5,10 +5,12 @@ import ClientExperience from "./pages/ClientExperience";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Milestones from "./pages/Milestones";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />

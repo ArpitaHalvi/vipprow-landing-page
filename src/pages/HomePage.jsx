@@ -8,6 +8,8 @@ import Results from "../components/Results.jsx";
 import Divider from "../components/Divider.jsx";
 import FAQSection from "../components/FAQSection.jsx";
 import { FAQS_PAGE_1 } from "../seeds/FAQs.js";
+import LogoConveyor from "../components/LogoConveyer.jsx";
+import { clientLogos } from "../seeds/clientLogos.js";
 
 // ── Divider between sections ───────────────────────────────────────────────
 // const Divider = () => (
@@ -32,6 +34,8 @@ export default function HomePage() {
       {/* <Stats /> */}
       {/* <Divider /> */}
       <Results />
+      <Divider />
+      <LogoConveyor data={clientLogos} />
       <Divider />
       {/* <StackingCards /> */}
       {/* <CaseStudies /> */}

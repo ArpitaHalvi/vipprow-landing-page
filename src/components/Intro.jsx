@@ -47,12 +47,12 @@ export default function Intro() {
             {CHALLENGES.map((c) => (
               <div
                 key={c}
-                className="flex items-center gap-3 px-5 py-4 text-sm text-white/45
+                className="flex items-center gap-3 px-5 py-4 text-md text-white/45
                 hover:text-white/80 hover:bg-purple-900/10 transition-all"
                 style={cell}
               >
                 <span
-                  className="w-1 h-1 rounded-full bg-violet-500 flex-shrink-0
+                  className="w-1 h-1 rounded-full bg-violet-500 shrink-0
                   shadow-[0_0_6px_rgba(139,92,246,0.6)]"
                 />
                 {c}
@@ -69,7 +69,7 @@ export default function Intro() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.15 }}
         >
-          <p className="text-sm text-white/42 leading-relaxed">
+          <p className="text-md text-white/42 leading-relaxed">
             At Vipprow, we don't apply templates. We build{" "}
             <span className="text-white/80">custom growth systems</span> for
             each client using strategy, execution, and automation.
@@ -82,13 +82,13 @@ export default function Intro() {
             }}
           >
             <span
-              className="w-2 h-2 rounded-full flex-shrink-0 animate-pulse"
+              className="w-2 h-2 rounded-full shrink-0 animate-pulse"
               style={{
                 background: "#8B5CF6",
                 boxShadow: "0 0 10px rgba(139,92,246,0.7)",
               }}
             />
-            <p className="text-sm text-white/60 leading-relaxed">
+            <p className="text-md text-white/60 leading-relaxed">
               <strong className="font-sora font-bold" style={gradText}>
                 Result:
               </strong>{" "}

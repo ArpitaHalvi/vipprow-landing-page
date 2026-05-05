@@ -54,7 +54,7 @@ const cell = {
 function BlockLabel({ children }) {
   return (
     <p
-      className="flex items-center gap-2 text-[10px] font-bold tracking-widest uppercase
+      className="flex items-center gap-2 text-sm font-bold tracking-widest uppercase
       text-purple-500/70 mb-5"
     >
       <span className="inline-block w-4 h-px bg-purple-500/50" />
@@ -105,10 +105,10 @@ export default function FeaturedCase() {
               SI
             </div>
             <div>
-              <p className="text-sm font-semibold text-white/80">
+              <p className="text-md font-semibold text-white/80">
                 Shivam Infracon
               </p>
-              <p className="text-xs text-white/35">B2B Solar · Maharashtra</p>
+              <p className="text-sm text-white/35">B2B Solar · Maharashtra</p>
             </div>
           </div>
         </motion.div>
@@ -134,10 +134,10 @@ export default function FeaturedCase() {
               ].map((c) => (
                 <div
                   key={c}
-                  className="flex items-start gap-3 text-sm text-white/50 leading-relaxed"
+                  className="flex items-start gap-3 text-md text-white/50 leading-relaxed"
                 >
                   <span
-                    className="w-1 h-1 rounded-full bg-violet-500 flex-shrink-0 mt-2
+                    className="w-1 h-1 rounded-full bg-violet-500 shrink-0 mt-2
                     shadow-[0_0_6px_rgba(139,92,246,0.6)]"
                   />
                   {c}
@@ -152,7 +152,7 @@ export default function FeaturedCase() {
             <div className="relative flex flex-col gap-0">
               {/* vertical line */}
               <div
-                className="absolute left-[13px] top-3 bottom-3 w-px"
+                className="absolute left-3.25 top-3 bottom-3 w-px"
                 style={{ background: "rgba(139,92,246,0.2)" }}
               />
 
@@ -162,8 +162,8 @@ export default function FeaturedCase() {
                   className="flex gap-4 items-start pb-5 last:pb-0"
                 >
                   <div
-                    className="w-7 h-7 rounded-full flex items-center justify-center
-                    font-sora font-extrabold text-[10px] text-violet-400 flex-shrink-0 relative z-10"
+                    className="w-10 h-10 rounded-full flex items-center justify-center
+                    font-sora font-extrabold text-sm text-violet-400 shrink-0 relative z-10"
                     style={{
                       background: "#080810",
                       border: "1px solid rgba(139,92,246,0.4)",
@@ -172,10 +172,10 @@ export default function FeaturedCase() {
                     {s.num}
                   </div>
                   <div>
-                    <p className="font-sora font-bold text-sm text-white mb-0.5">
+                    <p className="font-sora font-bold text-md text-white mb-0.5">
                       {s.title}
                     </p>
-                    <p className="text-xs text-white/35">{s.desc}</p>
+                    <p className="text-sm text-white/35">{s.desc}</p>
                   </div>
                 </div>
               ))}
@@ -189,7 +189,7 @@ export default function FeaturedCase() {
               {EXECUTION.map((e) => (
                 <div
                   key={e.text}
-                  className="rounded-xl p-4 text-xs text-white/50 leading-snug
+                  className="rounded-xl p-4 text-sm text-white/50 leading-snug
                     hover:text-white/80 hover:bg-purple-900/10 transition-all"
                   style={{
                     background: "rgba(255,255,255,0.025)",
@@ -222,7 +222,7 @@ export default function FeaturedCase() {
                   >
                     {r.num}
                   </p>
-                  <p className="text-[10px] text-white/38 leading-snug">
+                  <p className="text-sm text-white/38 leading-snug">
                     {r.label}
                   </p>
                 </div>
@@ -235,18 +235,18 @@ export default function FeaturedCase() {
             className="md:col-span-2 flex items-start gap-7 px-10 py-9"
             style={{ ...cell, background: "rgba(139,92,246,0.04)" }}
           >
-            <span className="font-sora text-6xl leading-none text-purple-500/20 flex-shrink-0">
+            <span className="font-sora text-6xl leading-none text-purple-500/20 shrink-0">
               "
             </span>
             <div>
-              <p className="text-sm text-white/60 leading-relaxed italic mb-4 max-w-2xl">
+              <p className="text-md text-white/60 leading-relaxed italic mb-4 max-w-2xl">
                 Vipprow didn't just run ads — they built a system that
                 consistently generates business inquiries for us.
               </p>
               <div className="flex items-center gap-3">
                 <div
                   className="w-7 h-7 rounded-full flex items-center justify-center
-                  font-sora font-extrabold text-[9px] text-purple-300 flex-shrink-0"
+                  font-sora font-extrabold text-[9px] text-purple-300 shrink-0"
                   style={{
                     background: "rgba(139,92,246,0.2)",
                     border: "1px solid rgba(139,92,246,0.35)",
@@ -255,10 +255,10 @@ export default function FeaturedCase() {
                   SI
                 </div>
                 <div>
-                  <p className="text-xs font-semibold text-white/60">
+                  <p className="text-md font-semibold text-white/60">
                     Shivam Infracon
                   </p>
-                  <p className="text-[10px] text-white/28">
+                  <p className="text-sm text-white/28">
                     B2B Solar · Maharashtra, India
                   </p>
                 </div>

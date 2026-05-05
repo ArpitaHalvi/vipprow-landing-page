@@ -61,7 +61,7 @@ export default function About() {
 
         {/* Tagline */}
         <motion.p
-          className="text-white/45 text-sm mb-12 max-w-lg leading-relaxed"
+          className="text-white/45 text-md mb-12 max-w-lg leading-relaxed"
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -154,7 +154,7 @@ export default function About() {
                 }}
               >
                 <div
-                  className="w-11 h-11 rounded-xl flex items-center justify-center text-lg flex-shrink-0"
+                  className="w-11 h-11 rounded-xl flex items-center justify-center text-lg shrink-0"
                   style={{
                     background: "rgba(139,92,246,0.15)",
                     border: "1px solid rgba(139,92,246,0.25)",
@@ -163,10 +163,10 @@ export default function About() {
                   {p.icon}
                 </div>
                 <div>
-                  <h4 className="font-sora font-bold text-sm text-white mb-0.5">
+                  <h4 className="font-sora font-bold text-md text-white mb-0.5">
                     {p.title}
                   </h4>
-                  <p className="text-xs text-white/40">{p.desc}</p>
+                  <p className="text-sm text-white/40">{p.desc}</p>
                 </div>
               </motion.div>
             ))}

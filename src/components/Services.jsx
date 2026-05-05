@@ -131,13 +131,13 @@ export default function Services() {
         </motion.h2>
 
         <motion.p
-          className="text-white/45 text-sm mb-12 max-w-lg"
+          className="text-white/45 text-md mb-12 max-w-lg"
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.14 }}
         >
-          We focus on outcomes that actually matter:
+          We focus on outcomes that actually matter
         </motion.p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">

@@ -79,7 +79,7 @@ export default function Results() {
               >
                 {s.num}
               </div>
-              <div className="text-xs text-white/40 leading-snug">
+              <div className="text-sm text-white/40 leading-snug">
                 {s.label}
               </div>
             </motion.div>
@@ -104,16 +104,16 @@ export default function Results() {
             {CLIENT_ROWS.map((r) => (
               <div
                 key={r}
-                className="flex items-center gap-3 px-5 py-3.5 text-sm text-white/50 hover:text-white/80 transition-colors"
+                className="flex items-center gap-3 px-5 py-3.5 text-md text-white/50 hover:text-white/80 transition-colors"
                 style={cell}
               >
-                <span className="w-1 h-1 rounded-full bg-violet-500 flex-shrink-0" />
+                <span className="w-1 h-1 rounded-full bg-violet-500 shrink-0" />
                 {r}
               </div>
             ))}
           </div>
           <div
-            className="inline-flex items-center gap-2 mt-5 px-4 py-2.5 rounded-xl text-sm text-purple-300 font-medium"
+            className="inline-flex items-center gap-2 mt-5 px-4 py-2.5 rounded-xl text-md text-purple-300 font-medium"
             style={{
               background: "rgba(139,92,246,0.12)",
               border: "1px solid rgba(139,92,246,0.28)",
@@ -142,7 +142,7 @@ export default function Results() {
                 style={cell}
               >
                 <div
-                  className="w-8 h-8 rounded-lg flex items-center justify-center text-sm flex-shrink-0"
+                  className="w-8 h-8 rounded-lg flex items-center justify-center text-sm shrink-0"
                   style={{
                     background: "rgba(139,92,246,0.12)",
                     border: "1px solid rgba(139,92,246,0.22)",
@@ -150,7 +150,7 @@ export default function Results() {
                 >
                   {w.icon}
                 </div>
-                <span className="font-sora font-bold text-sm text-white/85">
+                <span className="font-sora font-bold text-md text-white/85">
                   {w.label}
                 </span>
               </div>

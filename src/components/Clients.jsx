@@ -23,6 +23,11 @@ const CLIENTS = [
   { name: "Intenics Pvt. Ltd.", sector: "B2B Solutions", init: "IN" },
   { name: "Belleza Beauty Academy", sector: "Education / Beauty", init: "BB" },
   { name: "Music Mania School", sector: "Arts & Education", init: "MM" },
+  {
+    name: "UK International London Beauty School",
+    sector: "Beauty",
+    init: "UK",
+  },
 ];
 
 export default function Clients() {
@@ -86,7 +91,7 @@ export default function Clients() {
               <p className="text-md font-medium text-white/72 leading-snug">
                 {c.name}
               </p>
-              <p className="text-sm text-white/28 mt-0.5">{c.sector}</p>
+              <p className="text-md text-white/28 mt-0.5">{c.sector}</p>
             </div>
           </motion.div>
         ))}

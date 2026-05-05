@@ -66,7 +66,7 @@ export default function Industries() {
         </motion.h2>
 
         <motion.p
-          className="text-white/45 text-sm mb-12 max-w-md"
+          className="text-white/45 text-md mb-12 max-w-md"
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -104,10 +104,10 @@ export default function Industries() {
               >
                 <Icon size={22} color={accent} strokeWidth={1.7} />
               </div>
-              <h3 className="font-sora font-semibold text-sm text-white mb-1.5 relative z-10">
+              <h3 className="font-sora font-semibold text-md text-white mb-1.5 relative z-10">
                 {name}
               </h3>
-              <p className="text-[0.72rem] text-white/40 leading-relaxed relative z-10">
+              <p className="text-sm text-white/40 leading-relaxed relative z-10">
                 {desc}
               </p>
             </motion.div>

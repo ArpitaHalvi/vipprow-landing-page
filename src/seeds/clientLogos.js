@@ -100,8 +100,18 @@ const clientLogos = [
     domain: "Solar",
   },
   {
+    name: "Vardhman Jewellers",
+    logo: "/images/vardhman-jewellers-logo.jpg",
+    domain: "Jewellers",
+  },
+  {
     name: "DFashionista",
     logo: "/images/dfashionista-logo.jpg",
+    domain: "Other",
+  },
+  {
+    name: "UK International London Beauty School",
+    logo: "/images/london-beuaty-school.jpg",
     domain: "Other",
   },
   {
@@ -157,5 +167,3 @@ const clientLogos = [
 ];
 
 export { clientLogos };
-
-// UK International London Beauty School

@@ -48,8 +48,7 @@ export default function FAQSection({ FAQS }) {
                 {/* Question */}
                 <button
                   onClick={() => setActive(isOpen ? null : i)}
-                  className="w-full text-left px-6 py-5 flex items-center justify-between
-                             hover:bg-white/[0.02] transition-all duration-200"
+                  className="w-full text-left px-6 py-5 flex items-center justify-between hover:bg-white/2 transition-all duration-200"
                 >
                   <span className="text-sm md:text-base font-medium text-white/80">
                     {item.q}
@@ -77,7 +76,7 @@ export default function FAQSection({ FAQS }) {
                       transition={{ duration: 0.35 }}
                       className="overflow-hidden"
                     >
-                      <div className="px-6 pb-5 text-sm text-white/50 leading-relaxed">
+                      <div className="px-6 pb-5 text-md text-white/50 leading-relaxed">
                         {item.a}
                       </div>
                     </motion.div>

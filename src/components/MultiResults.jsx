@@ -162,7 +162,7 @@ export default function MultiResults() {
               >
                 {s.num}
               </p>
-              <p className="text-xs text-white/35 leading-snug">{s.label}</p>
+              <p className="text-md text-white/35 leading-snug">{s.label}</p>
             </motion.div>
           ))}
         </div>
@@ -202,7 +202,7 @@ export default function MultiResults() {
                 }}
               />
               <div className="text-2xl mb-4">{d.icon}</div>
-              <p className="text-[10px] font-bold tracking-widest uppercase text-purple-500/70 mb-2">
+              <p className="text-xs font-bold tracking-widest uppercase text-purple-500/70 mb-2">
                 {d.sector}
               </p>
               <h3 className="font-sora font-extrabold text-base text-white mb-4">
@@ -212,10 +212,10 @@ export default function MultiResults() {
                 {d.rows.map((r) => (
                   <div
                     key={r}
-                    className="flex items-center gap-2.5 text-xs text-white/45"
+                    className="flex items-center gap-2.5 text-md text-white/45"
                   >
                     <span
-                      className="w-1 h-1 rounded-full bg-violet-500 flex-shrink-0
+                      className="w-1 h-1 rounded-full bg-violet-500 shrink-0
                       shadow-[0_0_5px_rgba(139,92,246,0.5)]"
                     />
                     {r}
@@ -256,7 +256,7 @@ export default function MultiResults() {
                 transition={{ duration: 0.5, delay: i * 0.1 }}
               >
                 <p
-                  className="font-sora text-[10px] font-extrabold tracking-widest
+                  className="font-sora text-sm font-extrabold tracking-widest
                   text-purple-500/55 mb-4"
                 >
                   Step {s.num}
@@ -273,7 +273,7 @@ export default function MultiResults() {
                 <p className="font-sora font-extrabold text-sm text-white mb-1.5">
                   {s.title}
                 </p>
-                <p className="text-xs text-white/35 leading-relaxed">
+                <p className="text-sm text-white/35 leading-relaxed">
                   {s.desc}
                 </p>
               </motion.div>
@@ -301,7 +301,7 @@ export default function MultiResults() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
             >
               <div
-                className="w-10 h-10 rounded-xl flex items-center justify-center text-base flex-shrink-0"
+                className="w-10 h-10 rounded-xl flex items-center justify-center text-base shrink-0"
                 style={{
                   background: "rgba(139,92,246,0.12)",
                   border: "1px solid rgba(139,92,246,0.25)",
@@ -313,7 +313,7 @@ export default function MultiResults() {
                 <p className="font-sora font-bold text-sm text-white mb-1">
                   {s.title}
                 </p>
-                <p className="text-xs text-white/35 leading-relaxed">
+                <p className="text-sm text-white/35 leading-relaxed">
                   {s.desc}
                 </p>
               </div>
@@ -380,7 +380,7 @@ export default function MultiResults() {
             <br />
             <span style={gradText}>like these?</span>
           </h2>
-          <p className="text-sm text-white/40 leading-relaxed mb-10 max-w-md mx-auto">
+          <p className="text-md text-white/40 leading-relaxed mb-10 max-w-md mx-auto">
             Let's build your growth system — strategy, execution, and automation
             in one place.
           </p>

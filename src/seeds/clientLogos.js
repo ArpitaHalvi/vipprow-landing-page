@@ -129,11 +129,11 @@ const clientLogos = [
     logo: "https://vectorseek.com/wp-content/uploads/2023/09/Lemon-Tree-Hotels-Logo-Vector.svg-.png",
     domain: "Other",
   },
-  {
-    name: "Moment Photography",
-    logo: "/images/moment-photgraphy-logo.avif",
-    domain: "Other",
-  },
+  //   {
+  //     name: "Moment Photography",
+  //     logo: "/images/moment-photgraphy-logo.avif",
+  //     domain: "Other",
+  //   },
   {
     name: "Samdareeya Hotels",
     logo: "https://samdareeyahotel.in/images/logo-remove-bg.png",

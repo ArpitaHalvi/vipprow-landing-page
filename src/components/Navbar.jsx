@@ -77,7 +77,7 @@ export default function Navbar() {
         </ul>
 
         {/* CTA */}
-        <motion.button
+        {/* <motion.button
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 0.97 }}
           onClick={() => scrollTo("#contact")}
@@ -89,7 +89,22 @@ export default function Navbar() {
           }}
         >
           Book a Strategy Call
-        </motion.button>
+        </motion.button> */}
+        <motion.a
+          href="https://vipprow.com/contact"
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={{ scale: 1.04 }}
+          whileTap={{ scale: 0.97 }}
+          className="hidden md:inline-flex items-center gap-2 text-sm font-medium text-white
+             px-5 py-2.5 rounded-lg border-none cursor-pointer"
+          style={{
+            background: "linear-gradient(135deg,#8B5CF6,#6D28D9)",
+            boxShadow: "0 0 24px rgba(139,92,246,0.3)",
+          }}
+        >
+          Book a Strategy Call
+        </motion.a>
 
         {/* Mobile menu toggle */}
         <button

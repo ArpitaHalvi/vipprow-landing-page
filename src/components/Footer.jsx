@@ -310,10 +310,20 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between gap-10 mb-12">
             {/* Brand */}
             <div>
-              <div className="font-sora text-xl font-extrabold tracking-widest gradient-text mb-2">
+              {/* <div className="font-sora text-xl font-extrabold tracking-widest gradient-text mb-2">
                 VIPPROW
-              </div>
-              <p className="text-white/35 text-sm italic">
+              </div> */}
+              <img
+                src="/images/vipprow-logo-removebg-preview.png"
+                alt="VIPPROW Logo"
+                className="w-40 mb-3"
+              />
+              <p className="text-white/25 w-full sm:w-1/2 text-md">
+                Let Vipprow be your partner in achieving unparalleled digital
+                success. Together, we’ll create impactful stories that resonate
+                with your audience and deliver lasting results
+              </p>
+              <p className="text-white/45 mt-3 text-md italic">
                 Build. Scale. Dominate.
               </p>
             </div>

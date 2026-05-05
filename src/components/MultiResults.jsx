@@ -245,7 +245,7 @@ export default function MultiResults() {
             {STEPS.map((s, i) => (
               <motion.div
                 key={s.num}
-                className="flex-1 min-w-[160px] px-6 py-7 relative"
+                className="flex-1 min-w-40 px-6 py-7 relative"
                 style={{
                   borderLeft:
                     i === 0 ? "none" : "1px solid rgba(255,255,255,0.06)",
